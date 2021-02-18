@@ -1,32 +1,127 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-header{
+header,
+main,
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+}
+#logo {
+  float: left;
+  margin-right: 10px;
+}
+header section h1 {
+  font-size: 30px;
+  margin: 0px;
+  font-family: 'Yellowtail', cursive;
+}
+header section h2 {
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: 'Truculenta', sans-serif;
+}
+#socials {
+  margin-top: -30px;
+  float: right;
+}
+#divider {
+  height: 20px;
+  background-image: url(./images/hr-img.png);
+  background-repeat: repeat;
+  width: 100%;
+  margin-top: 25px;
+}
+main h1 {
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+}
+main p {
+  font-size: 19px;
+  color: #515253;
+  font-family: 'Truculenta', sans-serif;
+}
+#print {
+  float: right;
+}
+main section img,
+p {
+  display: inline;
+}
+#pizza {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.para {
+  font-size: 23px;
+  color: #3d3737;
+  font-family: 'Newsreader', serif;
+}
+#form {
+  background-image: url(./images/list-bg.png);
+  margin-top: 30px;
+  width: 100%;
+  font-family: 'Lemonada', cursive;
+}
+#list {
+  text-align: left;
+  font-size: 20px;
+  padding: 30px;
+}
+#list label {
+  line-height: 2em;
+}
+input[type="checkbox"]:checked + label {
+  color: red;
+  text-decoration: line-through;
+}
+footer section {
+    margin-top: 30px;
+}
+#van {
+  float: left;
+  margin-right: 10px;
+  font-family: 'Newsreader', serif;
+}
+footer section h1 {
+  font-size: 30px;
+  margin: 10px;
+  color: #3d3737;
+  font-family: 'Newsreader', serif;
+}
+footer section h2 {
+  font-size: 20px;
+  color: #515253;
+  font-family: 'Newsreader', serif;
+}
+button{
+    float: right;
+    margin-top: -75px;
+    width:200px;
+    height: 50px;
+    background-color: brown;
+    color: cornsilk;
+    font-size: 25px;
+    font-family: 'Truculenta', sans-serif;
+}
+#last{
+    
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    color: grey;
+    font-family: 'Newsreader', serif;
+}
+#small{
+    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    width: 80%;
+    margin-top:75px;
+    margin-bottom: 25px;
+    font-family: 'Newsreader', serif;
 }
-#logo{
-    float: left;
-    margin-right: 10px;
-}
-header section h1{
-    font-size: 30px;
-    margin: 0px;
-}
-header section h2{
-    font-size: 12px;
-    margin: 0px;
-}
-#socials{
-    margin: -30px;
-    float: right;
-}
-#divider{
-    height: 10px;
-    background-image: url(./images/hr-img.png);
-    background-repeat: repeat;
-    width:103%;
-    margin-top: 25px;
-}
+
+
